@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaShoppingCart } from "react-icons/fa";
+
 
 export default function Header() {
   return (
@@ -9,8 +11,9 @@ export default function Header() {
                   <li>Про нас</li>
                   <li>Контакты</li>
                   <li>Кабинет</li>
-              </ul>
-          </div>      
+        </ul>
+        <FaShoppingCart />
+          </div>
           <div className='presentation'></div>
     </header>
   )
